@@ -7,8 +7,8 @@ Harken is a Windows Service and .NET HTTP Listener that allows you to run PowerS
 3. `cd harken`
 4. Source the file with `. \harken.ps1` 
 5. `Install-Harken`
-6. Visit this URL in your browser: `http://localhost:8888/harken?command=get-service winmgmt&format=text`
-7. Where's my JSON?  `http://localhost:8888/harken?command=get-service winmgmt&format=json`
+6. Visit: `http://localhost:8888/harken?command=get-service winmgmt&format=text`
+7. JSON PLZ?: `http://localhost:8888/harken?command=get-service winmgmt&format=json`
 
 ### Uninstall Harken
 1. **Run PowerShell as an Administrator**
